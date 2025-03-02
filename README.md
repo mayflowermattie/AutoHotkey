@@ -1,4 +1,7 @@
+NEEDS AUTOHOTKEY TO FUNCTION, DOWNLOAD HERE: https://www.autohotkey.com/
+
 script that may or may not work im not gonna check for everyones pc lol
+
 
 
 needs citra to be in this view, and your trainer to be in this exact position. game speed also matters, i have it unthrottled but you should probably have it as high as it can go
