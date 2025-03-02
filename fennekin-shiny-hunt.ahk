@@ -58,6 +58,8 @@ loop {
     sleep 100
     Send "{Right up}"
 
+    sleep 1000
+
     ;; CHECK FOR SHINY WITH PIXELSEARCH FUNCTION ;;
     if PixelSearch(&pX, &pY, 515, 654, 602, 762, 0xFFF583, 2) {
         MsgBox("SHINYYY ASJKHAJKFHJKAGJKDFGHJB")
