@@ -43,9 +43,9 @@ loop {
     Send "{Up up}"
     sleep 100
     Send "{w down}"
-    sleep 10
+    sleep 15
     Send "{w up}"
-    sleep 10
+    sleep 15
     Send "{Right down}"
     sleep 100
     Send "{Right up}"
@@ -61,7 +61,7 @@ loop {
     sleep 1000
 
     ;; CHECK FOR SHINY WITH PIXELSEARCH FUNCTION ;;
-    if PixelSearch(&pX, &pY, 515, 654, 602, 762, 0xC8C8C8, 2) {
+    if PixelSearch(&pX, &pY, 556, 664, 566, 668, 0xc8c8c8, 2) {
         MsgBox("SHINYYY ASJKHAJKFHJKAGJKDFGHJB")
         break
     } else {
