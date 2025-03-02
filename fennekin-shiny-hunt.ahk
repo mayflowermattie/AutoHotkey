@@ -61,7 +61,7 @@ loop {
     sleep 1000
 
     ;; CHECK FOR SHINY WITH PIXELSEARCH FUNCTION ;;
-    if PixelSearch(&pX, &pY, 515, 654, 602, 762, 0xFFF583, 2) {
+    if PixelSearch(&pX, &pY, 515, 654, 602, 762, 0xC8C8C8, 2) {
         MsgBox("SHINYYY ASJKHAJKFHJKAGJKDFGHJB")
         break
     } else {
