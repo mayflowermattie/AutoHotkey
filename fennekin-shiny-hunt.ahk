@@ -18,7 +18,7 @@ loop {
     Send "{a up}"
 
     ;; SPAM A UNTIL AFTER FENNEKIN IS CHOSEN ;;
-    loop 60
+    loop 58
     {
         Send "{Right down}"
         sleep 50
@@ -27,7 +27,7 @@ loop {
     }
 
     ;; SPAM B UNTIL RIVALS ARE DONE SPEAKING ;;
-    loop 42
+    loop 44
     {
         Send "{Down down}"
         sleep 50
