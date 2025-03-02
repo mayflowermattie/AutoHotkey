@@ -36,7 +36,7 @@ loop {
     }
 
     ;; OPEN MENU ;;
-    sleep 300
+    sleep 500
 
     Send "{Up down}"
     sleep 100
