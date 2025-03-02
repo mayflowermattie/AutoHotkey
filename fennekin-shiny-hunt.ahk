@@ -14,8 +14,9 @@ loop {
     }
 
     Send "{a down}"
-    sleep 50
+    sleep 100
     Send "{a up}"
+    sleep 50
 
     ;; SPAM A UNTIL AFTER FENNEKIN IS CHOSEN ;;
     loop 58
