@@ -44,9 +44,9 @@ loop {
     Send "{Up up}"
     sleep 100
     Send "{w down}"
-    sleep 15
+    sleep 20
     Send "{w up}"
-    sleep 15
+    sleep 20
     Send "{Right down}"
     sleep 100
     Send "{Right up}"
